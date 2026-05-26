@@ -38,7 +38,13 @@ select nome  as vendedores_sem_vendas from vendedor
 left join venda 
 on vendedor.id_vendedor = venda.id_vendedor
 where venda.id_venda is null;
+--------------------------------------------------------------------------------------------------------------
+-- produtos que nunca foram vendidos
 
+select nome as produto_nao_vendidos from produto 
+left join item_venda
+on produto.id_produto = item_venda.id_produto
+where item_venda.id_item is null;
 
 
 
