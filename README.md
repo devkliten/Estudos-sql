@@ -19,7 +19,6 @@ Sistema de vendas com 6 tabelas e 600 linhas de dados reais em português.
 - INNER JOIN e LEFT JOIN com múltiplas tabelas
 - GROUP BY com COUNT, SUM, AVG e MAX
 - HAVING para filtrar grupos
-- Subqueries no WHERE e HAVING
 - Anti-join com LEFT JOIN + IS NULL
 
 ## 🛠️ Tecnologia
