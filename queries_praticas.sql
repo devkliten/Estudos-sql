@@ -48,9 +48,9 @@ where item_venda.id_item is null;
 --------------------------------------------------------------------------------------------------------------
 -- quantidade pedidos agrupados por status 
 
-select status, count(status) as quantidade from venda
+select status, count(id_venda) as quantidade from venda
 group by status 
-order by count(status) desc;
+order by count(id_venda) desc;
 --------------------------------------------------------------------------------------------------------------
 -- maiores valores de compras agrupadas pelo nome do cliente, sendo pelo menos acima de 5000
 
